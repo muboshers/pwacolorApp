@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000016">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./images/icons/android-launchericon-72-72.png">
+    <link rel="apple-touch-icon" href="./images/icons/android-launchericon-96-96.png">
+    <link rel="apple-touch-icon" href="./images/icons/android-launchericon-144-144.png">
+    <link rel="apple-touch-icon" href="./images/icons/android-launchericon-144-144.png">
+    <link rel="apple-touch-icon" href="./images/icons/android-launchericon-512-512.png">
+    <title>Color Picker PWA</title>
+</head>
+
+<body>
+    <div class="main___container">
+        <h1 class="main__colorTitle"> Color Picker </h1>
+        <div class="main__colorContainer">
+            <input type="color" id="main___colorInp">
+            <input class="main__disabledInput" id="main__disabledInput" disabled value="#000016" />
+        </div>
+        <div class="main___buttonContainer">
+            <button class="main__btn" id="changeColorBtn"> Change Body Color </button>
+            <button class="main__btn" id="copyColorCodeBtn"> Copy Hex Code </button>
+        </div>
+        <p class="text-secondary" id="colorInfo"></p>
+    </div>
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
